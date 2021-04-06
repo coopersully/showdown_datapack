@@ -1,0 +1,1 @@
+execute in minecraft:world_lobby run tp @s 0 65 0

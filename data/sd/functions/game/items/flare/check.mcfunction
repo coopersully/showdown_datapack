@@ -1,0 +1,2 @@
+execute if entity @e[tag=collectionPoint,distance=..10] run tellraw @s {"text":"You are too close to an existing care package.","color":"red"}
+execute unless entity @e[tag=collectionPoint,distance=..10] run function sd:game/items/flare/use

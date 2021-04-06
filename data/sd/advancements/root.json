@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Enter the Simulation"
+        },
+        "description": {
+            "text": "Find your way into the Curse Corps simulation"
+        },
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/quartz_bricks.png"
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "lobby"
+            }
+        }
+    }
+}

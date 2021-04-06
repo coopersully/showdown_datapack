@@ -1,0 +1,3 @@
+execute as @a[tag=playing] store result score @s game_itemCount_2 run clear @s minecraft:ender_pearl 0
+give @a[tag=playing,scores={game_itemCount_2=..4}] minecraft:ender_pearl{display:{Name:'[{"text":"Transport Pearl","italic":false,"color":"dark_aqua"}]',Lore:['[{"text":"Press USE ITEM to throw a pearl","italic":false,"color":"gray"}]','[{"text":"that will carry you with it as it","italic":false,"color":"gray"}]','[{"text":"travels; it also bounces on water.","italic":false,"color":"gray"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"","italic":false,"color":"dark_purple"}]','[{"text":">> Max Stack of 5","italic":false,"color":"dark_gray"}]']}}
+scoreboard players set ITEM_2 game_items 0

@@ -1,0 +1,3 @@
+execute as @a[tag=playing] store result score @s game_itemCount_1 run clear @s minecraft:snowball 0
+give @a[tag=playing,scores={game_itemCount_1=..14}] minecraft:snowball{CustomModelData:6601,display:{Name:'[{"text":"Fireball","italic":false,"color":"gold"}]',Lore:['[{"text":"Press USE ITEM to throw a flaming","italic":false,"color":"gray"}]','[{"text":"projectile in the direction that","italic":false,"color":"gray"}]','[{"text":"you are looking.","italic":false,"color":"gray"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"","italic":false,"color":"dark_purple"}]','[{"text":">> Max Stack of 15","italic":false,"color":"dark_gray"}]']}}
+scoreboard players set ITEM_1 game_items 0

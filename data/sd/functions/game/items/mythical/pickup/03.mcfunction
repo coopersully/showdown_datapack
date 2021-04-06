@@ -1,0 +1,5 @@
+particle minecraft:flash ^ ^1 ^0.75 0 0 0 0 1
+playsound minecraft:narrator.pickup-weapon-5 voice @s
+kill @e[type=minecraft:item,tag=INTERCEPTINATORitem,sort=nearest,limit=1,distance=..5]
+
+summon minecraft:item ~ ~ ~ {Tags:["GE"],Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:6605,interceptinatorBlueprint:1b,display:{Name:'[{"text":"Interceptinator Blueprint","italic":false}]',Lore:['[{"text":"Press USE ITEM to place a machine","italic":false,"color":"gray"}]','[{"text":"that will intercept nearby projectiles","italic":false,"color":"gray"}]','[{"text":"and draw them inward towards itself","italic":false,"color":"gray"}]','[{"text":"where it will disable and explode them.","italic":false,"color":"gray"}]','[{"text":"","italic":false,"color":"dark_purple"}]']},Unbreakable:1,HideFlags:5}}}

@@ -1,0 +1,12 @@
+{
+	"values": [
+		"minecraft:player",
+		"minecraft:arrow",
+		"minecraft:spectral_arrow",
+		"minecraft:snowball",
+		"minecraft:fireball",
+		"minecraft:small_fireball",
+		"minecraft:dragon_fireball",
+		"minecraft:potion"
+	]
+}

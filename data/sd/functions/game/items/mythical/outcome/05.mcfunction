@@ -1,0 +1,1 @@
+summon minecraft:item ~ ~ ~ {Tags:["SAVINGGRACEitem","GE"],PickupDelay:32767,Item:{id:"minecraft:oxeye_daisy",Count:1b,tag:{CustomModelData:6601}}}

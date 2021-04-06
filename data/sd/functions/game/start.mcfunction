@@ -1,0 +1,6 @@
+clear @s
+effect clear @s
+effect give @s minecraft:instant_health 1 250 true
+give @s minecraft:wooden_sword{STAGE_ONE:1b,Unbreakable:1b,HideFlags:4,display:{Name:'[{"text":"Melee Weapon ","italic":false},{"text":"[Tier 1]","color":"gray"}]',Lore:['[{"text":"Press ATTACK to swing weapon,","italic":false,"color":"gray"}]','[{"text":"damaging those struck by it. This","italic":false,"color":"gray"}]','[{"text":"item is upgradeable.","italic":false,"color":"gray"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"","italic":false,"color":"dark_purple"}]','[{"text":">> Max Stack of 1","italic":false,"color":"dark_gray"}]']}}
+give @s minecraft:bow{STAGE_ONE:1b,Unbreakable:1b,HideFlags:4,display:{Name:'[{"text":"Ranged Weapon ","italic":false},{"text":"[Tier 1]","color":"gray"}]',Lore:['[{"text":"Hold USE ITEM to draw back and","italic":false,"color":"gray"}]','[{"text":"release to fire an arrow. This","italic":false,"color":"gray"}]','[{"text":"item is upgradeable.","italic":false,"color":"gray"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"","italic":false,"color":"dark_purple"}]','[{"text":">> Max Stack of 1","italic":false,"color":"dark_gray"}]']}}
+kill @e[type=minecraft:area_effect_cloud,tag=PLAYER_SPAWN]

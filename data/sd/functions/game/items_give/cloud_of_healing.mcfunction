@@ -1,0 +1,3 @@
+execute as @a[tag=playing] store result score @s game_itemCount_3 run clear @s minecraft:splash_potion 0
+give @a[tag=playing,scores={game_itemCount_3=..0}] minecraft:splash_potion{display:{Name:'[{"text":"Cloud of Healing","italic":false,"color":"light_purple"}]',Lore:['[{"text":"Press USE ITEM to shoot off a","italic":false,"color":"gray"}]','[{"text":"flare-like item into the sky that","italic":false,"color":"gray"}]','[{"text":"will heal those who touch it.","italic":false,"color":"gray"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"","italic":false,"color":"dark_purple"}]','[{"text":">> Max Stack of 1","italic":false,"color":"dark_gray"}]']}}
+scoreboard players set ITEM_3 game_items 0

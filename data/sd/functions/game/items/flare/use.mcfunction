@@ -1,0 +1,3 @@
+tellraw @s ["",{"text":"[","bold":true,"color":"dark_gray"},{"text":"»","color":"yellow"},{"text":"]","bold":true,"color":"dark_gray"},{"text":" Care package incoming."}]
+summon minecraft:arrow ~ ~100 ~ {damage:100d,Tags:["flareArrow","GE"],Passengers:[{id:"minecraft:armor_stand",DisabledSlots:2031616,Invulnerable:1b,Invisible:1b,NoGravity:1b,Tags:["collectionPoint","GE"],ArmorItems:[{},{},{},{id:"minecraft:crafting_table",Count:1b,tag:{CustomModelData:6601}}]}],CustomName:'{"text":"Falling Care Package"}'}
+clear @s minecraft:carrot_on_a_stick{CustomModelData:6604} 1

@@ -1,0 +1,24 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Definitely Cheating"
+        },
+        "description": {
+            "text": "Win 50 field test simulations"
+        },
+        "icon": {
+            "item": "minecraft:golden_leggings"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "sd:adv9"
+}

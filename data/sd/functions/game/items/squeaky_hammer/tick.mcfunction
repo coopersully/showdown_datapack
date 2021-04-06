@@ -1,0 +1,2 @@
+execute as @a[tag=playing,nbt={SelectedItem:{tag:{squeakyHammer:1b}}}] at @s if score @s usedDSword matches 1.. run function sd:game/items/squeaky_hammer/hit
+scoreboard players reset @a[tag=playing] usedDSword

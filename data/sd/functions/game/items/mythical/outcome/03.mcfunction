@@ -1,0 +1,1 @@
+summon minecraft:item ~ ~ ~ {Tags:["INTERCEPTINATORitem","GE"],PickupDelay:32767,Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:6605}}}

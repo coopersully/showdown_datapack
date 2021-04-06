@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"You can ","color":"gray"},{"text":"click here","color":"aqua","clickEvent":{"action":"open_url","value":"https://github.com/coopersully/Showdown/wiki"},"hoverEvent":{"action":"show_text","contents":{"text":"Click here to view the Showdown wiki."}}},{"text":" to visit the offical Showdown wiki.","color":"gray"}]
+kill @e[type=minecraft:item,nbt={Item:{tag:{aboutItem:1b}}},distance=..2]

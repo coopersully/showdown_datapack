@@ -1,0 +1,1 @@
+function sd:game/items/generic/explode

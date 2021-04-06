@@ -1,0 +1,3 @@
+clear @s minecraft:bow{STAGE_FOUR:1b} 1
+give @s minecraft:bow{STAGE_FIVE:1b,HideFlags:5,Enchantments:[{id:"minecraft:power",lvl:3},{id:"minecraft:punch",lvl:2},{id:"minecraft:flame",lvl:1},{id:"minecraft:infinity",lvl:1}],Unbreakable:1b,display:{Name:'[{"text":"Ranged Weapon ","italic":false},{"text":"[Tier 5]","color":"gray"}]',Lore:['[{"text":"Hold USE ITEM to draw back and","italic":false,"color":"gray"}]','[{"text":"release to fire an arrow. This","italic":false,"color":"gray"}]','[{"text":"item is upgradeable.","italic":false,"color":"gray"},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"","italic":false,"color":"dark_purple"}]','[{"text":">> Max Stack of 1","italic":false,"color":"dark_gray"}]']}}
+advancement grant @s only sd:adv6
