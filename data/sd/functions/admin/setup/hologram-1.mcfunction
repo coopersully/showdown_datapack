@@ -1,0 +1,8 @@
+kill @e[type=minecraft:armor_stand,tag=hologram-1]
+
+execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:armor_stand ~ ~ ~ {Tags:["hologram-1"],CustomName:'{"text":"Let\'s get you all set up!","color":"yellow","bold":"true"}',CustomNameVisible:1b,Invulnerable:1b,NoGravity:1b,Invisible:1b,Marker:1b}
+execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:armor_stand ~ ~-0.5 ~ {Tags:["hologram-1"],CustomName:'{"text":"Ensure that you have correctly installed the resource pack."}',CustomNameVisible:1b,Invulnerable:1b,NoGravity:1b,Invisible:1b,Marker:1b}
+execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:armor_stand ~ ~-1.0 ~ {Tags:["hologram-1"],CustomName:'{"text":"Once installed, please ensure that you have your §bgame volume§r"}',CustomNameVisible:1b,Invulnerable:1b,NoGravity:1b,Invisible:1b,Marker:1b}
+execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:armor_stand ~ ~-1.25 ~ {Tags:["hologram-1"],CustomName:'{"text":"enabled with §bVoice/Speech§r sounds high enough to hear clearly."}',CustomNameVisible:1b,Invulnerable:1b,NoGravity:1b,Invisible:1b,Marker:1b}
+execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:armor_stand ~ ~-1.75 ~ {Tags:["hologram-1"],CustomName:'{"text":"§e[<]§r You can test your §bgame textures§r to the left. §e[<]§r"}',CustomNameVisible:1b,Invulnerable:1b,NoGravity:1b,Invisible:1b,Marker:1b}
+execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:armor_stand ~ ~-2.0 ~ {Tags:["hologram-1"],CustomName:'{"text":"§e[>]§r You can test your §baudio settings§r to the right. §e[>]§r"}',CustomNameVisible:1b,Invulnerable:1b,NoGravity:1b,Invisible:1b,Marker:1b}

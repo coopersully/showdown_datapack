@@ -1,0 +1,1 @@
+execute at @e[type=minecraft:fireball] run summon minecraft:creeper ~ ~ ~ {Fuse:0s}

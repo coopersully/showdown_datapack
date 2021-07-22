@@ -1,1 +1,1 @@
-execute in minecraft:world_lobby run tp @s 0 65 0
+execute in showdown:lobby run tp @s 0 65 0

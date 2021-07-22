@@ -433,4 +433,4 @@ execute as @a[tag=playingIntro] at @s if score @s introTick matches 2480.. run e
 execute as @a[tag=playingIntro] at @s if score @s introTick matches 2440 run playsound minecraft:block.portal.trigger player @s ~ ~ ~ 0.25 0.75
 execute as @a[tag=playingIntro] at @s if score @s introTick matches 2440 run stopsound @s * minecraft:showdown.bass-ambient
 execute as @a[tag=playingIntro] at @s if score @s introTick matches 2540 run effect clear @s
-execute as @a[tag=playingIntro] at @s if score @s introTick matches 2540 run tag @s add playedIntro
+execute as @a[tag=playingIntro] at @s if score @s introTick matches 2540 run scoreboard players set @s stat_playedIntro 1

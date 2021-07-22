@@ -1,6 +1,6 @@
 {
-	"pack": {
-		"pack_format": 6,
-		"description": [{"text":"Installs the Showdown gamemode for Minecraft.","color":"gold"}]
-	}
+    "pack": {
+        "pack_format": 7,
+        "description": "Installs the \"Showdown\" gamemode for Minecraft."
+    }
 }

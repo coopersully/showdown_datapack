@@ -1,0 +1,1 @@
+title @s title {"text":"6","color":"dark_gray","font":"cocoitalic"}

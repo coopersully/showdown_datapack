@@ -1,5 +1,5 @@
-execute in minecraft:world_sd run tp @a[tag=playing] 0 256 0
-execute in minecraft:world_sd run spreadplayers 0 0 0 45 under 100 false @a[tag=playing]
+execute in showdown:sudden_death run tp @a[tag=playing] 0 256 0
+execute in showdown:sudden_death run spreadplayers 0 0 0 45 under 100 false @a[tag=playing]
 
 execute as @a[tag=spectator] run tp @s @r[tag=playing]
 

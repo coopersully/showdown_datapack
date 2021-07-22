@@ -5,5 +5,5 @@ execute as @e[type=minecraft:fireball] at @s if block ~ ~ ~ minecraft:water run 
 scoreboard players add @e[type=minecraft:fireball] age 1
 execute as @e[type=minecraft:fireball] at @s if score @s age matches 300 run function sd:game/items/generic/explode
 
-execute as @e[type=minecraft:fireball,tag=!intercepted] at @s in minecraft:world_sd if score @s age matches 5.. run summon minecraft:tnt ~ ~ ~ {Tags:["GE"]}
-execute as @e[type=minecraft:fireball] at @s in minecraft:world_sd if score @s age matches 30.. run function sd:game/items/generic/explode
+execute as @e[type=minecraft:fireball,tag=!intercepted] at @s in showdown:sudden_death if score @s age matches 5.. run summon minecraft:tnt ~ ~ ~ {Tags:["GE"]}
+execute as @e[type=minecraft:fireball] at @s in showdown:sudden_death if score @s age matches 30.. run function sd:game/items/generic/explode

@@ -11,4 +11,4 @@ scoreboard players set ITEM_4 game_items 0
 scoreboard players set ITEM_5 game_items 0
 execute as @a[tag=queued] at @s run function sd:activity/reset-player
 execute in minecraft:overworld as @a[x=0] at @s run function sd:activity/reset-player
-execute in minecraft:world_sd as @a[x=0] at @s run function sd:activity/reset-player
+execute in showdown:sudden_death as @a[x=0] at @s run function sd:activity/reset-player
